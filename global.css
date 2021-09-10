@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+:root {
+  font-size: 62.5%;
+
+  /* Color button - Color-logo-edn - Nav-indication destaque-text - background-footer - aspas*/
+  --color-primary: #69B99D;
+
+  /* background-square-image -   */
+
+  --color-segund: #CCF4E6;
+
+  /*  color-text-geral - */
+
+  --color-text: #767676;
+
+  /*   color-tiltle - destimonial - text-navigation */
+
+  --color-dark: #0F241D;
+
+  /* background-content*/
+
+  --background-content: hsl(0, 0%, 98%);
+}
