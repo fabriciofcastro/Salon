@@ -1,0 +1,177 @@
+
+/* -=-=-=-=-=-=-=  h e a d e r -=-=-=-=-=-=-=-=-=-=-=*/
+#header{
+  width: 100%;
+  border-bottom: .1rem solid #E4E4E4;
+}
+.header-nav {
+  height: 8.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin: 0 12.3rem;
+}
+
+.logo {
+  font:700 3rem 'Poppins', sans-serif;
+  color: var(--color-dark);
+}
+
+.logo span {
+  color: var(--color-primary);
+}
+
+.header-nav ul li {
+  display: inline-block;
+}
+
+
+
+.header-nav ul a{
+  color: var(--color-dark);
+  font: bold 1.6rem DM sans, sans-serif;
+  padding: 2.5rem 2rem;
+}
+
+.header-nav ul a:nth-child(1){
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
+}
+
+/* -=-=-=-=-=-= M A I N -=-=-=-=-=-=-=-==-*/
+
+/* *-*-*-*-*-*  I N I C I O *-*-*-*-*-*-*-*/
+
+.start {
+  height: 70rem;
+  margin: 0 12.3rem;
+  display: flex;
+}
+
+.start-text{
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.content-text {
+  width: 50rem;
+}
+
+.content-text h1{
+  margin-bottom: 1.6rem;
+}
+
+.content-text p {
+  font: 400 1.8rem DM Sans, Sans-serif;
+  margin-bottom: 2.4rem;
+  width: 35rem;
+}
+
+.content-text button{
+  width: 21.8rem;
+  height: 5rem;
+  background-color: var(--color-primary);
+  font: 700 1.6rem DM Sabs, Sans-serif;
+  color: var(--background-content);
+  border: none;
+}
+
+.start-image{
+  width: 60%;
+  height: 80vh;  
+}
+
+.content-image{
+  width: 66rem;
+  height: 44.3rem;
+  margin: 16.8rem 0;
+  box-shadow: 7.7rem -6.8rem 0 var(--color-segund);
+  border-radius: .3rem;
+}
+
+.start-image img{
+  width: 100%;
+  border-radius: .3rem;
+}
+
+/* +-+-+-+-+-+- S O B R E +-+-+-+-+-+-+-+-*/
+
+#sobre {
+  width: 91.7vw;
+  height: 76.6rem;
+  display: flex;
+  border: 3px solid;
+}
+
+.sobre-container-image {
+  width: 45%;
+}
+
+.sobre-content-image {
+  width: 77.3rem;
+  height: 44.6rem;
+  box-shadow: -33rem -3.4rem 0 var(--color-segund);
+  margin: 19.4rem -5rem;
+  border-radius: .3rem;
+}
+
+.sobre-content-image img {
+  width: 61.7rem;
+}
+
+.sobre-container-text {
+  width: 100%
+}
+
+.sobre-content-text  {
+  margin: 19.4rem 0;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  width: 66rem;
+}
+
+.sobre-container-text p{
+  margin-bottom: 2.4rem;
+}
+
+/* +*+*+*+* S E R V I C E S +*+*+*++* */
+
+#servicos {
+  height: 87.1rem;
+  margin: 0 12.3rem;
+  border: 1px solid;
+}
+
+.servicos-container {
+  height: 35.9rem;
+  width: 100%;
+  border: 1px solid;
+}
+
+.servicos-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16rem;
+}
+
+.servicos-text p {
+  font: 400 1.8rem DM Sans;
+  width: 52.3rem;
+  text-align: center;
+}
+
+.servicos-descricao {
+  display: flex;
+ 
+}
+
+.box-services {
+  width: 35.2rem;
+  height: 35.2rem;
+  border-bottom: .4rem solid var(--color-primary);
+  margin: 3.2rem;
+}
+
+
