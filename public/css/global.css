@@ -4,12 +4,13 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  
 }
 
 body {
   color: var(--color-text);
   font: DM Sans;
+  background-color: var(--bg-body);
+  overflow-x: hidden;
 }
 
 h1 {
@@ -37,5 +38,12 @@ h1 {
 
   /* background-content*/
 
-  --background-content: hsl(0, 0%, 98%);
+    --bg-content: #fff;
+
+  /*  GL O B A L */
+
+  --bg-body: #e4e4e4;
+
 }
+
+
