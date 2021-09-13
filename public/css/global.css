@@ -47,3 +47,13 @@ h1 {
 }
 
 
+.btn {
+  width: 21.8rem;
+  height: 5rem;
+  background-color: var(--color-primary);
+  font: 700 1.6rem DM Sabs, Sans-serif;
+  color: var(--background-content);
+  border: none;
+  color: #ffffff;
+  border-radius: .3rem;
+}
