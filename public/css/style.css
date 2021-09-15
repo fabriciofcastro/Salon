@@ -333,10 +333,20 @@
   background-color: var(--color-primary);
 }
 
+.box-logo-footer {
+  width: 50%;
+  margin: 6.1rem 0 6.1rem 12.3rem;
+}
+
+
+.span-logo-footer {
+  color: #0F241D;
+ 
+}
 
 .logo-footer {
-  color: #0F241D;
-  width: 50%;
+  width: 25.rem;
+
 }
 
 .logo-footer a {
