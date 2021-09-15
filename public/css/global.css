@@ -9,12 +9,11 @@
 body {
   color: var(--color-text);
   font: DM Sans;
-  background-color: var(--bg-body);
   overflow-x: hidden;
 }
 
 #container {
-  width: 136.6rem;
+  width: 136.7rem;
   margin: 0 auto;
 }
 

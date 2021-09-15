@@ -39,7 +39,7 @@
 /* -=-=-=-=-=-= M A I N -=-=-=-=-=-=-=-==-*/
 
 #main-content {
-  background-color: var(--bg-content);
+ 
   
 }
 
@@ -47,7 +47,6 @@
 
 .start {
   height: 70rem;
-  margin: 0 12.3rem;
   display: flex;
 }
 
@@ -102,18 +101,17 @@
 /* +-+-+-+-+-+- S O B R E +-+-+-+-+-+-+-+-*/
 
 #sobre {
-  width: 100vw;
   height: 76.6rem;
   display: flex;
-  background-color: var(--bg-body);
+  border-bottom: .1rem solid #a1c3b7;
 }
 
 .sobre-container-image {
-  width: 40%;
+  width: 50%;
 }
 
 .sobre-content-image {
-  width: 77.3rem;
+  width: 68.3rem;
   height: 44.6rem;
   margin: 19.4rem 0;
   
@@ -140,7 +138,7 @@
   margin: 19.4rem 0;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  width: 60rem;
+  width: 70rem;
 }
 
 .sobre-container-text p {
@@ -150,12 +148,11 @@
 /* +*+*+*+* S E R V I C E S +*+*+*++* */
 
 #servicos {
-  height: 87.1rem;
-  margin: 0 12.3rem;
+  height: 71.1rem;
+  border-bottom: .1rem solid #a1c3b7;
 }
 
 .servicos-container {
-  height: 35.9rem;
   width: 100%;
   margin-top: 16rem;
 }
@@ -216,26 +213,26 @@
 
 #depoimento-container {
   height: 82.6rem;
-
-  background-color: #f5f5f5;
+  width: 100%;
+  border-bottom: .1rem solid #a1c3b7;
 }
 
 .title-depoim {
+  width: 100%;
   display: flex;
   justify-content: center;
-  margin: 0 12.3rem;
 }
 
 .title-depoim h1 {
   width: 48.1rem;
-  margin-top: 16rem;
   text-align: center;
+  margin-top: 16rem;
+
 }
 
 .depoim-content {
   display: flex;
-  margin: 0 12.3rem;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .box-depoim {
@@ -282,21 +279,19 @@
 
 
 /*      C O N T A T O       */
-.rem
-.contato-container {
-  height: 58.3rem;
-}
 
 .contato-content {
-  margin: 0 12.3rem;
+  height: 58.3rem;
   display: flex;
+}
+
+.grup-contato-text {
+  width: 50%;
 }
 
 .contato-text {
   width: 40.4rem;
-  height: 26.3rem;
-  margin: 16rem 83rem 16rem 12.3rem;
-  border: 1px solid;
+  margin: 16rem 0 16rem 12.3rem;
 }
 
 .contato-text p {
@@ -308,10 +303,13 @@
   margin-top: 2.4rem;
 }
 
-.contato {
-  width: 26.2rem;
-  height: 13.6rem;
+.grup-contato {
+  width: 50%;
+}
 
+.contato {
+  width: 26.6rem;
+  margin: 22.4rem 30.9rem 22.3rem 15rem;
 }
 
 .icons-contato {
@@ -319,6 +317,37 @@
   color: var(--color-primary);
 }
 
+.contato p {
+  font: 400 1.8rem DM Sans;
+}
+
 .contato p:nth-child(2) {
   padding: 3.2rem 0;
 }
+
+
+/*  +/+/++/+/+/+/++/  F O O T E R   +/+/+/+/+/+  */
+
+#footer {
+  height: 23.7rem;
+  background-color: var(--color-primary);
+}
+
+
+.logo-footer {
+  color: #0F241D;
+  width: 50%;
+}
+
+.logo-footer a {
+  font: bold 3.4rem "Poppins";
+  color: #fff;
+}
+
+.logo-footer p {
+  font: 400 1.6rem DM Sans;
+  color: #fff;
+}
+
+
+
