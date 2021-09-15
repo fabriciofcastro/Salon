@@ -40,6 +40,7 @@
 
 #main-content {
   background-color: var(--bg-content);
+  
 }
 
 /* *-*-*-*-*-*  I N I C I O *-*-*-*-*-*-*-*/
@@ -108,15 +109,23 @@
 }
 
 .sobre-container-image {
-  width: 45%;
+  width: 40%;
 }
 
 .sobre-content-image {
   width: 77.3rem;
   height: 44.6rem;
-  box-shadow: -33rem -3.4rem 0 var(--color-segund);
-  margin: 19.4rem -5rem;
+  margin: 19.4rem 0;
+  
 }
+
+.bg-decoration {
+  width: 43rem;
+  height: 30rem;
+  box-shadow: 0 -3.4rem 0 var(--color-segund);
+  position: absolute;
+}
+
 
 .sobre-content-image img {
   width: 61.7rem;
@@ -124,13 +133,14 @@
 
 .sobre-container-text {
   width: 100%;
+  
 }
 
 .sobre-content-text {
   margin: 19.4rem 0;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  width: 66rem;
+  width: 60rem;
 }
 
 .sobre-container-text p {
