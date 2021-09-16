@@ -1,9 +1,27 @@
 /* -=-=-=-=-=-=-=  h e a d e r -=-=-=-=-=-=-=-=-=-=-=*/
 #header {
-  width: 100%;
+border-radius: .3rem;
   border-bottom: 0.1rem solid #e4e4e4;
   background-color: #ffffff;
+  
 }
+
+#header.scroll-header {
+  background-color: var(--color-primary);
+  position:fixed;
+  z-index: 2;
+  width: 136.7rem;
+  transition: 2s;
+}
+
+#header.scroll-header .color-logo {
+  color: #ffffff;
+  transition: 1ms;
+}
+
+#header.scroll-header {}
+
+
 .header-nav {
   height: 8.5rem;
   display: flex;
@@ -38,10 +56,6 @@
 
 /* -=-=-=-=-=-= M A I N -=-=-=-=-=-=-=-==-*/
 
-#main-content {
- 
-  
-}
 
 /* *-*-*-*-*-*  I N I C I O *-*-*-*-*-*-*-*/
 
@@ -95,7 +109,7 @@
 }
 
 .border-image {
-  border-top: 7rem solid var(--color-primary);
+  border-top: 7rem solid tr;
   border-right: 10rem solid var(--color-primary);
   width: 55rem;
   height: 38rem;
