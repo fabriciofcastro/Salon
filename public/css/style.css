@@ -53,11 +53,12 @@
 .start-text {
   display: flex;
   align-items: center;
-  width: 40%;
+  width: 37%;
 }
 
 .content-text {
-  width: 50rem;
+  width: 39.6rem;
+  margin-left: 12.3rem;
 }
 
 .content-text h1 {
@@ -89,13 +90,26 @@
   width: 66rem;
   height: 44.3rem;
   margin: 16.8rem 0;
-  box-shadow: 7.7rem -6.8rem 0 var(--color-segund);
   border-radius: 0.3rem;
+  position: relative;
+}
+
+.border-image {
+  border-top: 7rem solid var(--color-primary);
+  border-right: 10rem solid var(--color-primary);
+  width: 55rem;
+  height: 38rem;
+  position: absolute;
+  top: -7rem;
+  left: 20rem;
+  z-index: -1;
+  border-radius: .3rem;
 }
 
 .start-image img {
-  width: 100%;
+  width: 56.1rem;
   border-radius: 0.3rem;
+  margin-left: 10rem;
 }
 
 /* +-+-+-+-+-+- S O B R E +-+-+-+-+-+-+-+-*/
@@ -330,34 +344,56 @@
 
 #footer {
   height: 23.7rem;
+  width: 100%;
   background-color: var(--color-primary);
+  border-radius: .4rem;
 }
 
 .box-logo-footer {
-  width: 50%;
-  margin: 6.1rem 0 6.1rem 12.3rem;
-}
-
-
-.span-logo-footer {
-  color: #0F241D;
- 
+  width: 100%;
+  height: auto;
+  display: flex;
 }
 
 .logo-footer {
-  width: 25.rem;
-
+  width: 24.9rem;
+  margin: 6.1rem 0 0 12.3rem;
+  width: 50%;
 }
 
 .logo-footer a {
-  font: bold 3.4rem "Poppins";
-  color: #fff;
+  color: #ffffff;
+  font: bold 3.2rem "Poppins";
+  margin-bottom: 2.4rem;
+}
+
+.span-logo-footer {
+  color: var(--color-dark);
 }
 
 .logo-footer p {
-  font: 400 1.6rem DM Sans;
-  color: #fff;
+  color: #ffffff;
+  font: 400 1.5rem DM Sans;
+  line-height: 3rem;
 }
 
+.rede-sociais {
+  height: 23.7rem;
+}
 
+.grup-rede-social {
+ height: 23.7rem;
+ width: 59.7rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-youtube {
+  padding: 4rem;
+  font-size: 2rem;
+  color: #ffffff;
+}
 
